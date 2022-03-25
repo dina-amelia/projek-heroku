@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class BarangKeluar extends Model
 {
+// 
     use HasFactory;
     protected $table = "barangkeluars";
     protected $visible = ['kode_barang', 'nama_barang', 'jumlah', 'pesanan_id'];
